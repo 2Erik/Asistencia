@@ -9,6 +9,14 @@ public class Asistencia {
 	private LocalDateTime fechaHoraRegistro; //Fecha y hora
 	private String estado;
 	
+	public Asistencia() {}
+	
+	public Asistencia(LocalDate fechaClase, LocalDateTime fechaHoraRegistro, String estado) {
+		this.fechaClase = fechaClase;
+		this.fechaHoraRegistro = fechaHoraRegistro;
+		this.estado = estado;
+	}
+	
 	public LocalDate getFechaClase() {
 		return fechaClase;
 	}

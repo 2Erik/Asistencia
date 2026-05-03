@@ -3,6 +3,14 @@ package com.krakedev.asistencia.dto;
 public class RegistroAsistencia {
 	private Estudiante estudiante;
 	private Asistencia asistencia;
+	
+	public RegistroAsistencia() {}
+	
+	public RegistroAsistencia(Estudiante estudiante, Asistencia asistencia) {
+		super();
+		this.estudiante = estudiante;
+		this.asistencia = asistencia;
+	}
 	public Estudiante getEstudiante() {
 		return estudiante;
 	}
