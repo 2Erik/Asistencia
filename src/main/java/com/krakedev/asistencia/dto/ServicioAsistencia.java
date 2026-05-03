@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class ServicioAsistencia {
 	private ArrayList<RegistroAsistencia> registros = new ArrayList<RegistroAsistencia>();
 	private final ServicioEstudiantes servicioEstudiantes;
